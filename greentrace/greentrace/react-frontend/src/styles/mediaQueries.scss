@@ -1,0 +1,230 @@
+@media only screen and (max-width: 768px) {
+    nav {
+        top: 1rem;
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+        border-radius: 0;
+    }
+
+    nav > .logo {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    nav > ul {
+        width: 100%;
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    nav > ul > li {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    nav > ul > li > a {
+        padding: 0.5rem;
+    }
+
+    nav > ul > li > a > .icon {
+        font-size: 1.2rem;
+        line-height: inherit;
+    }
+
+    nav > ul > li > a > .text {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    nav {
+        padding: 0.5rem;
+    }
+
+    nav > ul > li > a > .icon {
+        font-size: 1rem;
+    }
+
+    nav > ul > li > a > .text {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .heroSection {
+        padding-top: 8rem;
+    }
+
+    .heroSection > h1 {
+        font-size: 4rem;
+    }
+
+    .heroSection > .subHead {
+        font-size: 1.2rem;
+    }
+
+    .heroSection > .start-monitoring > p {
+        font-size: 1.2rem;
+    }
+
+    .heroSection > .start-monitoring > button {
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .vision > .container-div > h1 {
+        font-size: 1.5rem;
+    }
+
+    .vision > .container-div > p {
+        font-size: 1rem;
+    }
+
+    .impact > .container-div > h1 {
+        font-size: 1.5rem;
+    }
+
+    .impact > .container-div > p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .heroSection {
+        padding-top: 6rem;
+    }
+
+    .heroSection > h1 {
+        font-size: 3rem;
+    }
+
+    .heroSection > .subHead {
+        font-size: 1rem;
+    }
+
+    .heroSection > .start-monitoring > p {
+        font-size: 1rem;
+    }
+
+    .heroSection > .start-monitoring > button {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.6rem;
+    }
+
+    .vision > .container-div > h1 {
+        font-size: 1.2rem;
+    }
+
+    .vision > .container-div > p {
+        font-size: 0.9rem;
+    }
+
+    .impact > .container-div > h1 {
+        font-size: 1.2rem;
+    }
+
+    .impact > .container-div > p {
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col {
+        margin-bottom: 2rem;
+    }
+
+    .col:nth-child(2),
+    .col:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .col p.email-id {
+        margin-bottom: 1.2rem;
+    }
+
+    .social-icons {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .col {
+        padding: 0 1rem;
+    }
+
+    .col h3 {
+        font-size: 1.2rem;
+    }
+
+    .col p,
+    .col h4,
+    .col ul {
+        font-size: 0.9rem;
+    }
+
+    .col input {
+        width: calc(100% - 3rem);
+    }
+
+    .col button {
+        padding: 0.4rem 0.8rem;
+    }
+
+    .social-icons {
+        margin-top: 1rem;
+    }
+
+    .social-icons .fab {
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .signupCard {
+        width: 90%;
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .signupCard {
+        width: 80%;
+        left: 10%;
+    }
+
+    .signupCard .top p,
+    .signupCard .middle p,
+    .signupCard .middle input,
+    .signupCard .middle button,
+    .signupCard .bottom p {
+        font-size: 1.2rem;
+    }
+
+    .signupCard .middle input {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .signupCard .middle button {
+        margin-top: 1.5rem;
+        padding: 0.4rem;
+    }
+
+    .signupCard .bottom {
+        padding: 0 1rem;
+    }
+
+    .signupCard .bottom .g-logo {
+        left: 1.5rem;
+    }
+
+    .signupCard .last p {
+        font-size: 0.9rem;
+    }
+}
