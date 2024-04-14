@@ -1,0 +1,1 @@
+This contains our project GREENTRACE that is a website. The frontend is done using react and flask hase been used to integrate the backend with the frontend. The backend contains python code for graph and heatmap generation.
